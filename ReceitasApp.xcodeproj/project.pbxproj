@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1269E812C3724B900D6119B /* DetailsRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1269E802C3724B900D6119B /* DetailsRecipeViewController.swift */; };
 		C1E6E1EB2C36C716002ECAE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E6E1EA2C36C716002ECAE4 /* AppDelegate.swift */; };
 		C1E6E1ED2C36C716002ECAE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E6E1EC2C36C716002ECAE4 /* SceneDelegate.swift */; };
 		C1E6E1EF2C36C716002ECAE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E6E1EE2C36C716002ECAE4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1269E802C3724B900D6119B /* DetailsRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRecipeViewController.swift; sourceTree = "<group>"; };
 		C1E6E1E72C36C716002ECAE4 /* ReceitasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceitasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E6E1EA2C36C716002ECAE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1E6E1EC2C36C716002ECAE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C1E6E1F32C36C71A002ECAE4 /* Assets.xcassets */,
 				C1E6E1F52C36C71A002ECAE4 /* LaunchScreen.storyboard */,
 				C1E6E1F82C36C71A002ECAE4 /* Info.plist */,
+				C1269E802C3724B900D6119B /* DetailsRecipeViewController.swift */,
 			);
 			path = ReceitasApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				C1E6E1EF2C36C716002ECAE4 /* ViewController.swift in Sources */,
 				C1E6E1EB2C36C716002ECAE4 /* AppDelegate.swift in Sources */,
 				C1E6E1ED2C36C716002ECAE4 /* SceneDelegate.swift in Sources */,
+				C1269E812C3724B900D6119B /* DetailsRecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
