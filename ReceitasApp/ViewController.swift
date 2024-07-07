@@ -71,15 +71,24 @@ class ViewController: UIViewController {
             
             cell.textLabel?.text = recipe.name
             cell.detailTextLabel?.text = recipe.author
-            cell.imageView?.image = UIImage(named: recipe.image ?? "defaultImage")
             
-            return cell
+            let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 30, height: 30)) // Crie uma UIImageView com tamanho específico
+            
+            // Configura a imagem na célula
+               if let image = UIImage(named: recipe.image ?? "defaultImage") {
+                   cell.imageView?.image = image
+                   cell.imageView?.contentMode = .scaleAspectFill // Define o modo de conteúdo para preencher mantendo a proporção
+                   cell.imageView?.clipsToBounds = true // Garante que a imagem não ultrapasse os limites da célula
+                   cell.imageView?.layer.cornerRadius = 6 // Opcional: adicione cantos arredondados
+               } 
+               
+               return cell
         }
         
-        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             // Perform segue programmatically
-            performSegue(withIdentifier: "showDetail", sender: self)
-        }
+            //performSegue(withIdentifier: "showDetail", sender: self)
+        //}
         
         // Adicionar espaço entre as células
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
