@@ -1,9 +1,23 @@
 # ReceitasApp
 
-Aplicativo iOS utilizando UIKit e Storyboard com tableview a partir do figma
+Aplicativo iOS que lista receitas criado a partir de modelo do Figma
+
+## Tecnologias
+- Swift
+- UIKit
+
+## Requisitos
+- Criar um aplicativo iOS utilizando UIKit e Storyboard
+- Layout com TableView
+- Dados definidos no model
+- Navegação Tabbar
+- Tela de detalhes que contêm mais detalhes sobre o item selecionado
+- Navegação para a tela de detalhes usando uma NavigationController e segues
+- O usuário deve ter a opção de favoritar o conteúdo exibido
+- Persistência de dados com UserDefaults
 
 <p align="center">
-<img width="20%" src="https://github.com/giseletoledo/ReceitasApp/blob/main/ReceitasApp_Phone%2015%20Pro.png" alt="Tela da página listando filmes">
+<img width="20%" src="https://github.com/giseletoledo/ReceitasApp/blob/main/ReceitasApp_Phone%2015%20Pro.png" alt="Tela que lista as receitas">
 </p>
 
 ## Tic em trilhas
